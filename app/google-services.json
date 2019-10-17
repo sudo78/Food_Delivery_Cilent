@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "763264226326",
+    "firebase_url": "https://food-cilent.firebaseio.com",
+    "project_id": "food-cilent",
+    "storage_bucket": "food-cilent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763264226326:android:bc1352f71fb7338c",
+        "android_client_info": {
+          "package_name": "fastfood.foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763264226326-slouqovophmu44fq3p5duaq3t2n5ca1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ekOqtmd0jVWlumMBddpL75baPEvYfPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

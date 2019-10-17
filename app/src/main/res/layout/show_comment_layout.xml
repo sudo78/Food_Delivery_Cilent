@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="8dp"
+    >
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="User Phone"
+                    android:id="@+id/user_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RatingBar
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/rating_user"
+                    android:rating="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Comment"
+                android:id="@+id/user_Commment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+</android.support.v7.widget.CardView>

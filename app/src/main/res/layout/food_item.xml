@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="0dp"
+    android:layout_marginBottom="12dp"
+    xmlns:xmls="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:scaleType="centerCrop"
+            android:id="@+id/food_img"
+            android:background="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/layer"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:background="#4f0e0d0e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:text="NAME OF FOOD"
+                    android:id="@+id/food_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/ic_share_black_24dp"
+                    android:tint="@android:color/white"
+                    android:id="@+id/share_btn"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/unfav"
+                    android:tint="@android:color/white"
+                    android:id="@+id/fav"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_below="@+id/layer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:text="$1000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

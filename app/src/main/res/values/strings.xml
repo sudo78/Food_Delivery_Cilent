@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="text_Slogan">
+        "  feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rut"
+    </string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">227221467851318</string>
+    <string name="facebook_login_protocol_name">fb227221467851318</string>
+
+    <string name="server_key">
+        AAAAsbYX1BY:APA91bGePAl6D7bCSKkIdRzuPdJN0HBrX30EWxXLOrdVLg1dsdQkhuBbpk5qEBFhvSVt-YjfOnYTF7qnUpGzKoYR82e93tUMTQ6JMhUmosN41AjIY7ni_iuYu1-0abJz6vD2PS36gGDk
+    </string>
+</resources>
